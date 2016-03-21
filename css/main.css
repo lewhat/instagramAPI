@@ -1,0 +1,73 @@
+body {
+	background:url(../img/insta.png);
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+}
+
+.formcontainer {
+	vertical-align:middle;
+	height:50px;
+	margin-top:30px;
+	margin-left: 150px;
+	color: #000;
+}
+#search{
+	height:30px;
+}
+/*.logo {
+	width:50px;
+	height:100%;
+}
+*/
+ h3 {
+	display:inline;
+	position:relative;
+	top:15px;
+	font-size:46px;
+	
+}
+.title{
+	font-family: 'Satisfy', cursive;
+}
+
+.fields {
+
+	margin-top:50px;
+}
+
+.pad {
+	margin:20px;
+	border:1px solid #EEE;
+	text-align:center;
+	padding:20px 0;
+	background-color:#EEE;
+	border-radius:5px;
+}
+
+.regBtn {
+	font-size: 20px;
+	width:150px;
+	color:#000;
+	display:inline-block;
+	text-decoration:none;
+	border-radius:5px;
+	border:solid 3px #D94E3B;
+	background:rgba(204,204,204,0.8);
+	text-align:center;
+	padding: 5px;
+	margin-left: 10px;
+	transition: all 0.1s;
+    box-shadow:  4px 2px 4px #84261a;
+
+} 
+
+.regBtn:active{
+    box-shadow: 2px 2px 2px #84261a;
+    position:relative;
+    top:2px;
+}
+
+.regBtn:hover {
+	background-color: rgba(0,0,0,0.8);
+	color:orange;
+}
